@@ -1,0 +1,32 @@
+# Игнорируем кеши Python во всех папках
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Игнорируем временные файлы Jupyter Notebook во всех папках
+**/.ipynb_checkpoints/
+
+# Игнорируем виртуальные окружения
+.venv/
+venv/
+
+# Игнорируем логи и временные файлы
+**/*.log
+**/*.tmp
+**/*.swp
+**/*.swo
+
+# Игнорируем системные файлы
+Thumbs.db
+.DS_Store
+
+# Игнорируем файлы среды разработки
+.vscode/
+.idea/
+
+# Игнорируем ненужные файлы
+Ds junior exam 1.pdf
+exam1.ipynb
+exam1_best.ipynb
+test.ipynb
